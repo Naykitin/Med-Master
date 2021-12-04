@@ -7,7 +7,8 @@
   <script type="text/javascript" src="js/javascript.js"></script>
   <link rel="stylesheet" href="css/style.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript" src="exform/exform.js"></script>
   <script type="text/javascript">
   jQuery(document).ready(function($){
@@ -23,6 +24,7 @@
   <title>MedMaster</title>
 </head>
 <body>
+  <a name="to-top"></a>
   <div class="container">
     <div class="header" >
       <div class="header_top">
@@ -437,6 +439,22 @@
     <div class="footer-map">
       <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6e7a1155951d25714e6728902a4e7bdba9b21b23f1fa2fd41983593278a3f28f&amp;source=constructor" width="100%" height="250" frameborder="0"></iframe>
     </div>
+
+    <a href="#to-top" class="to-top">
+      <img src="img/to-top.png" alt="">
+    </a>
+
+
+    <!-- <script type="text/javascript">
+      $(window).scroll(function() {
+      let height = $(window).scrollTop();
+      if(height > 100){
+      $('to-top').addClass('to-top-fixed');
+      } else{
+      $('to-top').removeClass('to-top-fixed');
+      }
+      });
+    </script> -->
 
 
   </div>
