@@ -1,8 +1,8 @@
-$(window).scroll(function() {
-let height = $(window).scrollTop();
+jQuery(window).scroll(function() {
+let height = jQuery(window).scrollTop();
 if(height > 100){
-$('to-top').addClass('to-top-fixed');
+jQuery('.to-top').addClass('to-top-fixed');
 } else{
-$('to-top').removeClass('to-top-fixed');
+jQuery('.to-top').removeClass('to-top-fixed');
 }
 });

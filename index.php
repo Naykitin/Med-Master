@@ -443,16 +443,17 @@
     <a href="#to-top" class="to-top">
       <img src="img/to-top.png" alt="">
     </a>
-    <script type="text/javascript">
-      $(window).scroll(function() {
-      let height = $(window).scrollTop();
+
+    <!-- <script type="text/javascript">
+      jQuery(window).scroll(function() {
+      let height = jQuery(window).scrollTop();
       if(height > 100){
-      $('to-top').addClass('to-top-fixed');
+      jQuery('.to-top').addClass('to-top-fixed');
       } else{
-      $('to-top').removeClass('to-top-fixed');
+      jQuery('.to-top').removeClass('to-top-fixed');
       }
       });
-    </script>
+    </script> -->
 
   </div>
 </body>
