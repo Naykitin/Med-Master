@@ -443,7 +443,7 @@
     <a href="#to-top" class="to-top">
       <img src="img/to-top.png" alt="">
     </a>
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
       $(window).scroll(function() {
       let height = $(window).scrollTop();
       if(height > 100){
@@ -452,7 +452,7 @@
       $('to-top').removeClass('to-top-fixed');
       }
       });
-    </script> -->
+    </script>
 
   </div>
 </body>
