@@ -30,7 +30,7 @@
       <div class="header_top">
         <div class="header_top-logo">
           <img src="img/logo.png" alt="MedMaster">
-          <p>MedMaster</p>
+          <p>Med-Master</p>
         </div>
         <div class="header_top-menu">
           <ul class="menu">
