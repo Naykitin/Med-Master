@@ -4,11 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script type="text/javascript" src="js/javascript.js"></script>
-  <link rel="stylesheet" href="css/style.css">
-
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/javascript.js"></script>
+  <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript" src="exform/exform.js"></script>
   <script type="text/javascript">
   jQuery(document).ready(function($){
@@ -26,31 +24,7 @@
 <body>
   <a name="to-top"></a>
   <div class="container">
-    <div class="header" >
-      <div class="header_top">
-        <div class="header_top-logo">
-          <img src="img/logo.png" alt="MedMaster">
-          <p>Med-Master</p>
-        </div>
-        <div class="header_top-menu">
-          <ul class="menu">
-            <li><a href="#onas">О нас</a></li>
-            <li><a href="#service">Услуги</a></li>
-            <li><a href="#certificates">Серитификаты</a></li>
-            <li><a href="#work">Как мы работаем</a></li>
-            <li><a href="#contacts">Контакты</a></li>
-          </ul>
-        </div>
-        <div class="header_top-info">
-          <p>Телефоны для справок</p>
-          <a href="tel:" class="info_tel">+7(xxx)xxx-xx-xx</a>
-          <a href="/" class="callbackhead">Заказать обратный звонок</a>
-        </div>
-      </div>
-      <div class="header_form">
-        <div class="callback"></div>
-      </div>
-    </div>
+    <?php include "header.php" ?>
 
     <div class="comp_block">
       <div class="comp_block-item">
@@ -232,44 +206,6 @@
          </div>
        </div>
     </div>
-    <script type="text/javascript">
-      $('.responsive_review').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-    ]
-  });
-    </script>
-
 
     <div class="partners_block">
       <div class="partners_block-item"><img src="img/oriflame.png" alt=""></div>
@@ -310,43 +246,6 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript">
-      $('.responsive_our_work_block').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-    ]
-  });
-    </script>
 
     <div class="ask_block">
 
@@ -387,74 +286,9 @@
         <div><img src="img/certificates.png" alt=""></div>
       </div>
     </div>
-    <script type="text/javascript">
-      $('.responsive_certificates_block').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
-    ]
-  });
-    </script>
-    <a name="contacts"></a>
-    <div class="contacts_block">
-      <h2 class="contacts_block-head">Контактная информация</h2>
-      <div class="contacts_block-body">
-        <div class="adress">-.ХХХХ, ул. ХХХХХ, ХХ</div>
-        <div class="contacts_block-btn callbackhead">Заказать обратный звонок</div>
-        <div class="contacts_block-tel">
-          <a href="tel:">+7(xxx)xxx-xx-xx</a>
-        </div>
-      </div>
-    </div>
 
-    <div class="footer-map">
-      <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6e7a1155951d25714e6728902a4e7bdba9b21b23f1fa2fd41983593278a3f28f&amp;source=constructor" width="100%" height="250" frameborder="0"></iframe>
-    </div>
-
-    <a href="#to-top" class="to-top">
-      <img src="img/to-top.png" alt="">
-    </a>
-
-    <!-- <script type="text/javascript">
-      jQuery(window).scroll(function() {
-      let height = jQuery(window).scrollTop();
-      if(height > 100){
-      jQuery('.to-top').addClass('to-top-fixed');
-      } else{
-      jQuery('.to-top').removeClass('to-top-fixed');
-      }
-      });
-    </script> -->
-
+    <?php include "footer.php" ?>
+    
   </div>
 </body>
 </html>
