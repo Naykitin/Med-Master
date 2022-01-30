@@ -1,7 +1,7 @@
 <div class="header" >
   <div class="header_top">
     <div class="header_top-logo">
-      <img src="img/logo.png" alt="MedMaster">
+      <a href="/"><img src="img/logo.png" alt="MedMaster"></a>
       <p>Med-Master</p>
     </div>
     <div class="header_top-menu">

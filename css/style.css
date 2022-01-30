@@ -52,6 +52,7 @@ ul.menu {
 }
 ul.menu li {
     list-style: none;
+    transition: 0.2s;
 }
 ul.menu li a {
     font-size: 16px;
@@ -62,7 +63,10 @@ ul.menu li a {
     text-transform: uppercase;
     margin: 0 20px;
 }
-
+ul.menu li:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
 
 .header_top-info {
     display: flex;
@@ -87,6 +91,11 @@ ul.menu li a {
 .info_tel {
   margin-bottom: 5px;
   text-decoration: none;
+  transition: 0.2s;
+}
+a.info_tel:hover {
+  text-decoration: underline;
+  transition: 0.2s;
 }
 
 .header_form {
@@ -119,6 +128,11 @@ ul.menu li a {
     height: 60px;
     background-color: rgba(100, 196, 199, 0.2);
     box-shadow: 0px 3px 3px 0px rgb(0 0 0 / 20%);
+    transition: 0.2s;
+}
+.comp_block-box:hover {
+  box-shadow: 0px 6px 6px 0px rgb(0 0 0 / 20%);
+  transition: 0.2s;
 }
 .comp_block-box span {
     position: absolute;
@@ -181,6 +195,12 @@ h2.prem_block-head:before {
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
     margin: 10px 15px;
+    transition: 0.2s;
+}
+.prem_block-item:hover {
+  transform: scale(1.02);
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
 }
 .prem_block-item p {
     text-align: center;
@@ -227,6 +247,12 @@ h2.expert_block-head:before {
     margin: 10px auto;
     height: 272px;
     width: 262px;
+    transition: 0.2s;
+}
+.expert_block-item:hover {
+  transform: scale(1.01);
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.3);
+  transition: 0.2s;
 }
 .expert_block-item_head {
     display: flex;
@@ -257,6 +283,12 @@ h2.expert_block-head:before {
     color: rgb(255, 254, 254);
     text-transform: uppercase;
     line-height: 1.371;
+    transition: 0.2s;
+}
+.expert_block-item .btn:hover {
+  color: rgb(250, 191, 120);
+  background-color: #fff;
+  transition: 0.2s;
 }
 
 .consultation_block {
@@ -659,6 +691,11 @@ h2.contacts_block-head {
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-decoration: none;
+    transition: 0.2s;
+}
+.contacts_block-tel a:hover {
+  text-decoration: underline;
+  transition: 0.2s;
 }
 .to-top {
   display: block;
@@ -738,6 +775,21 @@ h2.contacts_block-head {
 @media (max-width: 480px) {
   .problem_block-ul {
     margin-left: 40px!important;
+  }
+  .header_form {
+    margin-top: 16px;
+  }
+  .consultation_block {
+    margin: 20px 0;
+  }
+  .partners_block {
+    padding: 20px 0;
+  }
+  .company_block-p {
+    width: 90%;
+  }
+  .certificates_block ul.slick-dots {
+    display: none!important;
   }
 
 }

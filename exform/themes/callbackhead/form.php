@@ -2,7 +2,6 @@
 if(!isset($_REQUEST["mf_path"]) && !isset($_REQUEST["mf_captcha_code"])) die("Restricted access");?>
 <div class="exform_wrapper callbackhead brdrad7 boxshdw">
  <div class="exform_header"><?php echo $config->form_header;?></div>
- <div class="exform_addmsg"><?php echo $config->form_addmsg;?></div>
  <form name="exform">
   <div class="inpt_wrpr">
    <?php if(isset($field_value["phone_err"])) :?><div class="err"><img src="<?php echo $_SESSION['mf_path'];?>imgs/error.gif" title="<?php echo $field_value["phone_err"];?>" /></div><?php endif;?>
