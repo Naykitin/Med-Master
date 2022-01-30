@@ -109,9 +109,8 @@
   background-image: url(../../img/whiteArrow.png);
 }
 
-.slick-next
-{
-    right: -16px;
+.slick-next {
+    right: -19px;
     transform: translate(0, -50%) rotate(180deg);
     background-image: url(../../img/arrow-left.png);
     background-repeat: no-repeat;

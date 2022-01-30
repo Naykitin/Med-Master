@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript" src="/js/javascript.js"></script>
   <link rel="stylesheet" href="css/style.css">
@@ -134,19 +135,19 @@
       <div class="how_work_block-items">
         <div class="how_work_block-item">
           <img src="img/first-aid-kit.png" alt="">
-          <p>Мы связываемся с Вами в одобное для Вас время</p>
+          <p>Мы связываемся с Вами в удобное для Вас время</p>
         </div>
         <div class="how_work_block-item">
           <img src="img/first-aid-kit.png" alt="">
-          <p>Мы связываемся с Вами в одобное для Вас время</p>
+          <p>Мы связываемся с Вами в удобное для Вас время</p>
         </div>
         <div class="how_work_block-item">
           <img src="img/first-aid-kit.png" alt="">
-          <p>Мы связываемся с Вами в одобное для Вас время</p>
+          <p>Мы связываемся с Вами в удобное для Вас время</p>
         </div>
         <div class="how_work_block-item">
           <img src="img/first-aid-kit.png" alt="">
-          <p>Мы связываемся с Вами в одобное для Вас время</p>
+          <p>Мы связываемся с Вами в удобное для Вас время</p>
         </div>
       </div>
     </div>
@@ -288,7 +289,7 @@
     </div>
 
     <?php include "footer.php" ?>
-    
+
   </div>
 </body>
 </html>
