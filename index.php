@@ -47,7 +47,7 @@
     </div>
 
 
-    <div class="prem_block">
+    <div class="prem_block fixed-bg">
       <h2 class="prem_block-head">Наши преимущества</h2>
       <div class="prem_block-item_wrapper">
         <div class="prem_block-item">
@@ -152,7 +152,7 @@
       </div>
     </div>
 
-    <div class="review_block">
+    <div class="review_block fixed-bg">
       <h2 class="review_block-head">Что клиенты говорят о нас</h2>
        <div class="review_block-body">
          <div class="responsive_review">
