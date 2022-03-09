@@ -215,7 +215,7 @@
       <div class="partners_block-item"><img src="img/oriflame.png" alt=""></div>
     </div>
 
-    <div class="our_work_block">
+    <div class="our_work_block fixed-bg">
       <h2 class="our_work_block-head">Наши работы</h2>
       <div class="responsive_our_work_block">
         <div class="responsive_our_work_block-item">
