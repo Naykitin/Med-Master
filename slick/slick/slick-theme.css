@@ -41,6 +41,8 @@
     outline: none;
     background-color: rgb(255, 255, 255);
     opacity: 0.502;
+
+    z-index: 99;
 }
 .responsive_certificates_block .slick-prev,
 .responsive_certificates_block .slick-next {
