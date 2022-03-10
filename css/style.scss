@@ -690,6 +690,9 @@ h2.contacts_block-head {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.contacts_block-body > div {
+  width: 250px;
+}
 .adress {
     font-size: 18px;
     font-family: "Verdana";
@@ -704,7 +707,7 @@ h2.contacts_block-head {
     line-height: 1.2;
     text-align: center;
     border: 1px solid #fff;
-    padding: 10px 20px;
+    padding: 10px 0px;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -712,6 +715,9 @@ h2.contacts_block-head {
   background-color: #fff;
   color: rgb(100, 196, 199);
   transition: 0.2s;
+}
+.contacts_block-tel {
+  text-align: center;
 }
 .contacts_block-tel a {
     font-size: 18px;
