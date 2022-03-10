@@ -161,6 +161,7 @@ ul.menu {
         color: rgb(65, 65, 65);
         font-weight: bold;
         line-height: 1.2;
+        opacity: 0;
         left: 0;
         top: -40px;
     }
@@ -537,7 +538,7 @@ h2.review_block-head {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    min-height: 457px;
+    min-height: 420px;
     background-image: url('../img/our_work_bg.png');
 }
 h2.our_work_block-head {
@@ -815,6 +816,17 @@ h2.contacts_block-head {
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+  .header {
+    .header_top {
+      .header_top-info {
+        align-items: center;
+        .info_tel {
+          margin: 10px 5px;
+        }
+      }
+    }
+  }
+  
   .problem_block-ul {
     margin-left: 40px!important;
   }

@@ -290,6 +290,8 @@
 
     <?php include "footer.php" ?>
 
+    
+   <script type="text/javascript" src="/js/jquery.spincrement.js"></script>
   </div>
 </body>
 </html>
