@@ -17,9 +17,12 @@
       <p>Телефоны для справок</p>
       <a href="tel:" class="info_tel">+7(xxx)xxx-xx-xx</a>
       <a href="/" class="callbackhead">Заказать обратный звонок</a>
+      <div class="theme-button" id="theme-button">Change theme</div>
     </div>
+
   </div>
   <div class="header_form">
     <div class="callback"></div>
   </div>
+
 </div>

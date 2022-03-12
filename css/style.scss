@@ -55,13 +55,11 @@ h2 {
             align-items: flex-end;
 
             p {
-                color: #fff;
                 font-size: 14px;
                 line-height: 1.2;
             }
 
             a {
-                color: #fff;
                 font-size: 16px;
                 transition: 0.2s;
                 line-height: 1.2;
@@ -82,6 +80,12 @@ h2 {
               text-decoration: underline;
               transition: 0.2s;
             }
+        }
+        .theme-button {
+          padding: 5px;
+          background: #000;
+          color: #fff;
+          cursor: pointer;
         }
     }
 }
@@ -142,7 +146,6 @@ ul.menu {
         margin-top: 24px;
         font-size: 16px;
         font-family: "Verdana";
-        color: rgb(0, 0, 0);
         line-height: 1.2;
     }
 }
@@ -150,15 +153,12 @@ ul.menu {
     position: relative;
     width: 189px;
     height: 60px;
-    background-color: rgba(100, 196, 199, 0.2);
-    box-shadow: 0px 3px 3px 0px rgb(0 0 0 / 20%);
     transition: 0.2s;
 
     span {
         position: absolute;
         font-size: 70px;
         font-family: "Verdana";
-        color: rgb(65, 65, 65);
         font-weight: bold;
         line-height: 1.2;
         opacity: 0;
@@ -167,7 +167,6 @@ ul.menu {
     }
 }
 .comp_block-box:hover {
-  box-shadow: 0px 6px 6px 0px rgb(0 0 0 / 20%);
   transition: 0.2s;
 }
 .prem_block {
@@ -179,7 +178,6 @@ ul.menu {
     min-height: 410px;
 }
 h2.prem_block-head {
-    color: rgb(255, 255, 255);
     position: relative;
     margin-bottom: 55px;
     z-index: 1;
@@ -209,7 +207,6 @@ h2.prem_block-head:before {
     height: 200px;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255, 255, 255);
     opacity: 0.8;
     margin: 10px 15px;
     transition: 0.2s;
@@ -279,7 +276,6 @@ h2.expert_block-head:before {
         padding: 6px;
         font-size: 14px;
         font-family: "Verdana";
-        color: rgb(255, 254, 254);
         text-transform: uppercase;
         line-height: 1.371;
         transition: 0.2s;
@@ -287,7 +283,6 @@ h2.expert_block-head:before {
 
     .btn:hover {
       color: $btnColor;
-      background-color: #fff;
       transition: 0.2s;
     }
 }
@@ -307,7 +302,6 @@ h2.expert_block-head:before {
     p {
         font-size: 13px;
         font-family: "Verdana";
-        color: rgb(255, 255, 255);
         line-height: 1.308;
     }
 }
@@ -475,9 +469,7 @@ h2.how_work_block-head:before {
     background-image: url('../img/reviewbg.png');
     min-height: 504px;
 }
-h2.review_block-head {
-    color: rgb(255, 255, 255);
-}
+
 .review_block-body {
     width: 90%;
 }
@@ -496,7 +488,6 @@ h2.review_block-head {
     h4 {
         font-size: 16px;
         font-family: "Verdana";
-        color: rgb(255, 255, 255);
         line-height: 1.2;
         text-align: center;
     }
@@ -504,7 +495,6 @@ h2.review_block-head {
     p {
         font-size: 14px;
         font-family: "Verdana";
-        color: rgb(255, 255, 255);
         line-height: 1.2;
         text-align: center;
         width: 200px;
@@ -514,7 +504,6 @@ h2.review_block-head {
     a {
         font-size: 14px;
         font-family: "Verdana";
-        color: rgb(255, 255, 255);
         text-decoration: underline;
         line-height: 1.2;
     }
@@ -542,7 +531,6 @@ h2.review_block-head {
     background-image: url('../img/our_work_bg.png');
 }
 h2.our_work_block-head {
-    color: rgb(255, 255, 255);
     position: relative;
     z-index: 1;
 }
@@ -627,6 +615,11 @@ h2.company_block-head:before {
 .company_block-img {
     width: 280px;
     margin: 0 30px;
+
+    img {
+      width: 240px;
+      height: auto;
+    }
 }
 .company_block-p {
     width: 60%;
@@ -670,6 +663,7 @@ h2.certificates_block-head:before {
 
     img {
       margin: 0 auto;
+      width: 85%;
     }
 }
 
@@ -697,23 +691,19 @@ h2.contacts_block-head {
 .adress {
     font-size: 18px;
     font-family: "Verdana";
-    color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: center;
 }
 .contacts_block-btn {
     font-size: 16px;
     font-family: "Verdana";
-    color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: center;
-    border: 1px solid #fff;
     padding: 10px 0px;
     cursor: pointer;
     transition: 0.2s;
 }
 .contacts_block-btn:hover {
-  background-color: #fff;
   color: rgb(100, 196, 199);
   transition: 0.2s;
 }
@@ -723,7 +713,6 @@ h2.contacts_block-head {
 .contacts_block-tel a {
     font-size: 18px;
     font-family: "Verdana";
-    color: rgb(255, 255, 255);
     line-height: 1.2;
     text-decoration: none;
     transition: 0.2s;

@@ -1,0 +1,88 @@
+body {
+  background: #000;
+}
+
+.comp_block-item p {
+  color: #fff;
+}
+
+.comp_block-box {
+  background-color: #64c4c7;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(255, 255, 255, 0.2);
+          box-shadow: 0px 3px 3px 0px rgba(255, 255, 255, 0.2);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.comp_block-box span {
+  color: #fff;
+}
+
+.comp_block-box:hover {
+  -webkit-box-shadow: 0px 6px 6px 0px rgba(255, 255, 255, 0.2);
+          box-shadow: 0px 6px 6px 0px rgba(255, 255, 255, 0.2);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.header_top-info p {
+  color: #fff;
+}
+.header_top-info a {
+  color: #fff;
+}
+
+h2.prem_block-head {
+  color: #fff;
+}
+
+.prem_block-item {
+  background-color: #fff;
+}
+
+.expert_block-item .btn {
+  color: #fff;
+}
+.expert_block-item .btn:hover {
+  background-color: #fff;
+}
+
+.expert_block-item_head p {
+  color: #fff;
+}
+
+h2.review_block-head {
+  color: #fff;
+}
+
+.responsive_review-item h4 {
+  color: #fff;
+}
+.responsive_review-item p {
+  color: #fff;
+}
+.responsive_review-item a {
+  color: #fff;
+}
+
+h2.our_work_block-head {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.adress {
+  color: #fff;
+}
+
+.contacts_block-btn {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.contacts_block-btn:hover {
+  background-color: #fff;
+}
+
+.contacts_block-tel a {
+  color: #fff;
+}

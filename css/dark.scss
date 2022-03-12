@@ -1,0 +1,94 @@
+$darkText: #fff;
+
+body {
+  background: #000;
+}
+
+.comp_block-item {
+  p {
+      color: $darkText;
+  }
+}
+.comp_block-box {
+  background-color: rgba(100, 196, 199, 1);
+  box-shadow: 0px 3px 3px 0px rgb(255 255 255 / 20%);
+  transition: 0.2s;
+
+  span {
+      color: $darkText;
+  }
+}
+.comp_block-box:hover {
+box-shadow: 0px 6px 6px 0px rgb(255 255 255 / 20%);
+transition: 0.2s;
+}
+
+.header_top-info {
+   p {
+       color: $darkText;
+   }
+   a {
+       color: $darkText;
+   }
+}
+
+h2.prem_block-head {
+   color: $darkText;
+}
+
+.prem_block-item {
+   background-color: $darkText;
+}
+
+.expert_block-item {
+   .btn {
+      color: $darkText;
+  }
+  .btn:hover {
+   background-color: $darkText;
+ }
+}
+.expert_block-item_head {
+   p {
+       color: $darkText;
+   }
+}
+
+h2.review_block-head {
+   color: $darkText;
+}
+
+.responsive_review-item {
+   h4 {
+       color: $darkText;
+   }
+
+   p {
+       color: $darkText;
+   }
+
+   a {
+       color: $darkText;
+   }
+}
+
+h2.our_work_block-head {
+   color: $darkText;
+   position: relative;
+   z-index: 1;
+}
+
+.adress {
+   color: $darkText;
+}
+
+.contacts_block-btn {
+   color: $darkText;
+   border: 1px solid $darkText;
+}
+.contacts_block-btn:hover {
+   background-color: $darkText;
+ }
+ .contacts_block-tel a {
+   color: $darkText;
+}

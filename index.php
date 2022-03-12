@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if(!isset($_SESSION["theme"]))
+{
+    $_SESSION["theme"] = "light";
+}
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -5,10 +13,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/<?php echo $_SESSION["theme"]; ?>.css" id="theme-link">
+  <link rel="stylesheet" href="lightbox2/dist/css/lightbox.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript" src="/js/javascript.js"></script>
-  <link rel="stylesheet" href="css/style.css">
   <script type="text/javascript" src="exform/exform.js"></script>
+  <script type="text/javascript" src="lightbox2/dist/js/lightbox.min.js"></script>
   <script type="text/javascript">
   jQuery(document).ready(function($){
   $('.callback').exform({theme:'callback', wrapper: "callback"});
@@ -25,6 +36,7 @@
 <body>
   <a name="to-top"></a>
   <div class="container">
+  <?php include "themes.php" ?>
     <?php include "header.php" ?>
 
     <div class="comp_block">
@@ -117,7 +129,7 @@
     <div class="problem_block">
       <h2 class="problem_block-head">Как мы решим Вашу проблему</h2>
       <div class="problem_block-body">
-        <img src="img/problem.png" alt="">
+        <a href="img/problem.png" data-lightbox="problem_block"><img src="img/problem.png" alt=""></a>
         <div class="problem_block-p">
           <ul class="problem_block-ul">
             <li><span>Поиск клиеентов для продажи автомобиля</span></li>
@@ -259,8 +271,8 @@
       <h2 class="company_block-head">О компании</h2>
       <div class="company_block-body">
         <div class="company_block-img">
-          <img src="img/comp1.png" alt="">
-          <img src="img/comp2.png" alt="">
+          <a href="img/comp1.png" data-lightbox="company_block"><img src="img/comp1.png" alt=""></a>
+          <a href="img/comp2.png" data-lightbox="company_block"><img src="img/comp2.png" alt=""></a>
         </div>
         <div class="company_block-p">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda libero ducimus incidunt placeat quaerat, est magnam, rem quod cupiditate expedita facere. Culpa itaque perferendis, hic unde consectetur totam quibusdam soluta consequuntur quaerat officiis corporis ducimus non, sit inventore laboriosam mollitia molestiae quos iste. Labore explicabo, quis tempore obcaecati. Quod, quasi.</p>
