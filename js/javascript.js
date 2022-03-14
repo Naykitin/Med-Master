@@ -133,3 +133,46 @@ $(document).ready(function () {
 
 });
 
+$(document).ready(function(){
+
+  var btn = document.getElementById("theme-button");
+  var link = document.getElementById("theme-link");
+  
+  btn.addEventListener("click", function () { ChangeTheme(); });
+  
+  function ChangeTheme()
+  {
+      let lightTheme = "css/light.css";
+      let darkTheme = "css/dark.css";
+  
+      var currTheme = link.getAttribute("href");
+      var theme = "";
+      var input = document.getElementById('checkbox');
+      
+  
+      if(currTheme == lightTheme)
+      {
+        currTheme = darkTheme;
+        theme = "dark";
+        input.checked = true;
+      }
+      else
+      {    
+        currTheme = lightTheme;
+        theme = "light";
+        input.checked = false;
+      }
+  
+      link.setAttribute("href", currTheme);
+  
+      Save(theme);
+  }
+
+  function Save(theme)
+  {
+    var Request = new XMLHttpRequest();
+    Request.open("GET", "themes.php?theme=" + theme, true);
+    Request.send();
+  }
+
+})

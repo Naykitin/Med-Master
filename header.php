@@ -18,8 +18,17 @@
       <a href="tel:" class="info_tel">+7(xxx)xxx-xx-xx</a>
       <a href="/" class="callbackhead">Заказать обратный звонок</a>
     </div>
+
+    <div class="header_switch">
+      <label class="switch">
+        <input type="checkbox" id="checkbox" checked>
+        <span class="slider round theme-button" id="theme-button"></span>
+      </label>
+    </div>
+
   </div>
   <div class="header_form">
     <div class="callback"></div>
   </div>
+
 </div>
