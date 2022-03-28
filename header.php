@@ -19,12 +19,14 @@
       <a href="/" class="callbackhead">Заказать обратный звонок</a>
     </div>
 
-    <div class="header_switch">
+    <!-- <div class="header_switch">
       <label class="switch">
         <input type="checkbox" id="checkbox" checked>
         <span class="slider round theme-button" id="theme-button"></span>
       </label>
-    </div>
+    </div> -->
+
+    <div id="change__theme-btn"></div>
 
   </div>
   <div class="header_form">

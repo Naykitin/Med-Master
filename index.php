@@ -301,9 +301,12 @@ if(!isset($_SESSION["theme"]))
     </div>
 
     <?php include "footer.php" ?>
-
-    
-   <script type="text/javascript" src="/js/jquery.spincrement.js"></script>
   </div>
+  <script type="text/javascript" src="/js/jquery.spincrement.js"></script>
+
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+  <script src="/js/changeTheme.js"></script>
 </body>
 </html>
