@@ -1,11 +1,3 @@
-<?php
-session_start();
-
-if(!isset($_SESSION["theme"]))
-{
-    $_SESSION["theme"] = "light";
-}
-?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -14,7 +6,7 @@ if(!isset($_SESSION["theme"]))
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/<?php echo $_SESSION["theme"]; ?>.css" id="theme-link">
+  <link rel="stylesheet" href="css/light.css" id="theme-link">
   <link rel="stylesheet" href="lightbox2/dist/css/lightbox.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type="text/javascript" src="/js/javascript.js"></script>
